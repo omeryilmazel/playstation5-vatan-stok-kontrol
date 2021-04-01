@@ -1,0 +1,21 @@
+{
+  "name": "playstation5-vatan-stok-kontrol",
+  "version": "1.0.0",
+  "description": "Bu program arka planda playstation 5'in Vatan'da olup olmadığını kontrol eder. varsa, program sizi sesli olarak uyarır.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ömer Yılmazel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "inquirer": "^7.3.3",
+    "js-yaml": "^3.14.0",
+    "open": "^7.3.0",
+    "say": "^0.16.0"
+  }
+}
